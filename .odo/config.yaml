@@ -1,0 +1,13 @@
+kind: LocalConfig
+apiversion: odo.openshift.io/v1alpha1
+ComponentSettings:
+  Type: java:8
+  SourceLocation: ./
+  SourceType: local
+  Ports:
+  - 8080/TCP
+  - 8443/TCP
+  - 8778/TCP
+  Application: fis7-camel-springboot
+  Project: fis7-camel-springboot
+  Name: fis7-camel-springboot
