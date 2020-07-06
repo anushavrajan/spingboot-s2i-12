@@ -8,6 +8,6 @@ ComponentSettings:
   - 8080/TCP
   - 8443/TCP
   - 8778/TCP
-  Application: fis7-camel-springboot
+  Application: sample
   Project: fis7-camel-springboot
   Name: fis7-camel-springboot
